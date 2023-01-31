@@ -1,4 +1,4 @@
-function Hero() {
+const Hero = () => {
   return (
     <div className="flex flex-col md:flex-row md:mb-12">
       <div className="md:w-1/2">
@@ -27,6 +27,6 @@ function Hero() {
       </div>
     </div>
   );
-}
+};
 
 export default Hero;
