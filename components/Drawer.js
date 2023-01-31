@@ -30,7 +30,7 @@ const Drawer = ({ setActive, active }) => {
             className="text-gray-400 bg-transparent hover:bg-gray-200 rounded-lg text-sm p-1.5 inline-flex items-center dark:hover:bg-gray-600 dark:hover:text-white"
             onClick={() => setActive(false)}
           >
-            <Image src="public/cross.svg" alt="cross" width={18} height={18} />
+            <Image src="/cross.svg" alt="cross" width={18} height={18} />
             <span className="sr-only">Close menu</span>
           </button>
           <div className="text-black h-auto flex flex-col gap-6 pt-5 font-bold">
@@ -58,7 +58,7 @@ const Drawer = ({ setActive, active }) => {
               <a className="font-bold text-sm mr-3 flex space-x-2" href="">
                 <div className="align-middle flex flex-col justify-center">
                   <Image
-                    src="public/user-icon-bl.svg"
+                    src="/user-icon-bl.svg"
                     alt="user icon"
                     width={14}
                     height={18}
