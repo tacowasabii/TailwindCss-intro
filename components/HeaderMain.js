@@ -17,7 +17,7 @@ const HeaderMain = () => {
         <div className="flex justify-between md:py-7 bg-custom-red-2">
           <div className="flex justify-center align-middle">
             <BurgerMenu setActive={setActive} active={active} />
-            {/* <Drawer setActive={setActive} active={active} /> */}
+            <Drawer setActive={setActive} active={active} />
             <div className="hidden md:block justify-center align-middle">
               <div className="flex space-x-4">
                 <Link className="font-bold text-xl flex space-x-2" href="">
