@@ -21,7 +21,7 @@ const Hero = () => {
       <div className="flex md:w-1/2 align-middle justify-center pt-10">
         <img
           className="w-56 md:w-72 xl:w-80"
-          src="./lollipop.png"
+          src="lollipop.png"
           alt="lollipop"
         />
       </div>
