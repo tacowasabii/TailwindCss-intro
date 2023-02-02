@@ -18,7 +18,9 @@ const Product = ({ image, name, price }) => {
           />
         </Link>
       </div>
-      <div className="font-fredoka text-xl">{name}</div>
+      <div className="font-fredoka text-xl text-custom-purple font-semibold">
+        {name}
+      </div>
       <div className="flex items-center justify-center mt-3">
         <Rating />
       </div>
