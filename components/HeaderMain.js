@@ -11,7 +11,7 @@ const HeaderMain = () => {
   return (
     <div
       className="text-white mb-10 xl:mb-24 h-[757px] md:h-[584px] xl:h-[647px] bg-no-repeat bg-cover md:bg-bottom bg-center font-poppins w-full"
-      style={{ backgroundImage: "url(./header.png)" }}
+      style={{ backgroundImage: "url(header.png)" }}
     >
       <div className="px-3 md:px-7 w-100 mx-auto xl:w-4/6">
         <div className="flex justify-between md:py-7 bg-custom-red-2">
