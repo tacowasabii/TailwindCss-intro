@@ -11,7 +11,7 @@ const BestSellers = () => {
             <div className="flex justify-center -mb-1">
               <Image
                 className="h-5"
-                src="/heading-icon.svg"
+                src="heading-icon.svg"
                 alt="candy"
                 width={20}
                 height={20}
