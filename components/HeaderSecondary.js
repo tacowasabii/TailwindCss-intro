@@ -2,10 +2,9 @@ import { useState } from "react";
 import Drawer from "./Drawer";
 import BurgerMenu from "./BurgerMenu";
 import Navbar from "./Navbar";
-import Hero from "./Hero";
 import Image from "next/image";
 import Link from "next/link";
-import Router, { useRouter } from "next/router";
+import { useRouter } from "next/router";
 
 const HeaderSecondary = () => {
   const router = useRouter();
