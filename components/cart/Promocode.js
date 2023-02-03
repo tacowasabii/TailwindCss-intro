@@ -9,7 +9,7 @@ const Promocode = () => {
           <div className="relative">
             <input
               type="text"
-              className="bg-custom h-10 border-0 px-4 rounded-full focus:outline-none hover:cursor-pointer"
+              className="bg-custom h-10 w-full border-0 px-4 rounded-full focus:outline-none hover:cursor-pointer"
             />
             <button className="rounded-full bg-orange-400 absolute top-0 right-0 text-sm h-10 px-3 text-black font-bold">
               OK
