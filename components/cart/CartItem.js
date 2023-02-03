@@ -13,7 +13,7 @@ const CartItems = ({ name, image, inStock, price }) => {
   };
   return (
     <div className="mb-10">
-      <div className="grid grid-cols-4 gap-2">
+      <div className="grid grid-cols-4 gap-10">
         <div className="col-span-4 md:col-span-1">
           <div className="flex items-center">
             <div className="mr-2 mb-auto md:mb-0">
@@ -51,8 +51,8 @@ const CartItems = ({ name, image, inStock, price }) => {
               </div>
             </div>
             <div className="md:col-span-2">
-              <div className="text-xl w-full xl:text-lg ml-auto flex items-center align-middle md:justify-start pr-1 sm:justify-between">
-                <div className="flex justify-between md:gap-8 w-full md:w-auto md:justify-end">
+              <div className="text-xl w-full xl:text-lg ml-auto flex items-center align-middle md:justify-between pr-1 sm:justify-between">
+                <div className="flex justify-between md:gap-20 w-full md:w-auto md:justify-end">
                   <div>
                     <div className="mb-1 text-center font-poppins text-xs text-custom-purple-lite">
                       Price
@@ -79,7 +79,7 @@ const CartItems = ({ name, image, inStock, price }) => {
                           defaultValue={qty}
                         />
                         <button
-                          onClick={qtyDec}
+                          onClick={qtyInc}
                           className="bg-custom border-custom-gray border text-color-1 rounded-r-[16px] w-[30px] px-1 cursor-pointer outline-none"
                         >
                           <span className="m-auto text-xl font-thin">+</span>
