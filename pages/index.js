@@ -1,11 +1,14 @@
-import HeaderSecondary from "components/HeaderSecondary";
-import Hero from "components/Hero";
-import Navbar from "components/Navbar";
+import BestSellers from "components/BestSellers";
+import GetThemNow from "components/GetThemNow";
+import Layout from "components/Layout";
+import ShopProduct from "components/ShopProduct";
 
 export default function Home() {
   return (
-    <>
-      <HeaderSecondary />
-    </>
+    <Layout criteria={true}>
+      <BestSellers />
+      <GetThemNow />
+      <ShopProduct />
+    </Layout>
   );
 }
